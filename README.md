@@ -13,5 +13,5 @@ formValidation.add(FormValidation.validationSetError(EDITTEXT_EMAIL.getText().to
 
 //IF validation passes all fields
 if (!formValidation.contains(false)) {
-  //DO SOMETHING
+	//DO SOMETHING
 }
