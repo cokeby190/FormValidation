@@ -16,11 +16,10 @@ public class FormValidation {
 	public static final int POSTAL_COMPULSORY = 8;
 	public static final int POSTAL = 9;
 	public static final int HOME_UNIT_COMPULSORY = 10;
-	public static final int HOME_UNIT = 11;
-	public static final int DATE_COMPULSORY = 12;
-	public static final int DATE = 13;
-	public static final int CASH_AMOUNT_COMPULSORY = 14;
-	public static final int CASH_AMOUNT = 15;
+	public static final int DATE_COMPULSORY = 11;
+	public static final int DATE = 12;
+	public static final int CASH_AMOUNT_COMPULSORY = 13;
+	public static final int CASH_AMOUNT = 14;
 	
 	public static String validate(String validate_string, int code) {
 		
@@ -94,10 +93,6 @@ public class FormValidation {
 			}
 			break;
 		case HOME_UNIT_COMPULSORY:
-			if(validate_string.equals(""))
-				errorMsg = "Please enter a unit number to proceed.";
-			break;
-		case HOME_UNIT:
 			if(validate_string.equals(""))
 				errorMsg = "Please enter a unit number to proceed.";
 			break;
