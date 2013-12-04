@@ -19,6 +19,7 @@ if (!formValidation.contains(false)) {
 ```
 Field checks include :
 
+```android
 NAME
 IC
 PW
@@ -34,6 +35,7 @@ DATE_COMPULSORY (dd/MM/yyyy format)
 DATE (dd/MM/yyyy format)
 CASH_AMOUNT_COMPULSORY
 CASH
+```
 
 Class allows users to create and add their own validation fields with 2 additional methods :
 
